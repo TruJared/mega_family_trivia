@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary":
+            "Mega Family Trivia features over 200 fun, funny, and educational questions for kids of all ages, updated frequently.",
+          "examplePhrases": [
+            "Alexa open Mega Family Trivia",
+            "Alexa tell Mega Family Trivia to start a game",
+            "Alexa tell Mega Family Trivia I want to play"
+          ],
+          "name": "Mega Family Trivia",
+          "description":
+            "Mega Family Trivia features over 200 fun, funny, and educational questions for kids of all ages. Answer 5 trivia questions and track your score. Can you beat your family and friends? Test your trivia skills by saying 'Alexa open Mega Family Trivia'. Say, 'Alexa help' while using the skill for detailed instructions."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
