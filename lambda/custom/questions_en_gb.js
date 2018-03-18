@@ -5,7 +5,7 @@ module.exports = {
    * When editing your questions pay attention to your punctuation. Make sure you use question marks.
    * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
    */
-  QUESTIONS_EN_US: [
+  QUESTIONS_EN_GB: [
     {
       'What color is a polar bear? ': ['White', 'Blue', 'Red', 'Black']
     },
@@ -595,7 +595,7 @@ module.exports = {
       ]
     },
     {
-      'The first carburetor of the first Harley-Davidson was made of what? ': [
+      'The first carburetor of the first Harley Davidson was made of what? ': [
         'A tomato can',
         'Cast iron',
         'Steel',
@@ -1128,7 +1128,7 @@ module.exports = {
       ]
     },
     {
-      'What is the name fo the championship series in the national basketball association? ': [
+      'What is the name of the championship series in the national basketball association? ': [
         'The N-B-A finals',
         'The final countdown',
         'The national basketball championship',
@@ -1152,7 +1152,7 @@ module.exports = {
       ]
     },
     {
-      'European football or soccer has an international championship game called what? ': [
+      'European football, or soccer, has an international championship game called what? ': [
         'World Cup',
         'World Kick Championship',
         'Global championship',

@@ -15,7 +15,8 @@
 'use strict';
 
 const Alexa = require('alexa-sdk');
-const questions = require('./question');
+const questions_en_us = require('./questions_en_us');
+const questions_en_gb = require('./questions_en_gb');
 
 const ANSWER_COUNT = 3; // The number of possible answers per trivia question.
 const GAME_LENGTH = 5; // The number of questions per trivia game.
@@ -33,7 +34,7 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
 const languageString = {
   'en': {
     translation: {
-      QUESTIONS: questions['QUESTIONS_EN_US'],
+      QUESTIONS: questions_en_us['QUESTIONS_EN_US'],
       GAME_NAME: 'Mega Family Trivia', // Be sure to change this for your skill.
       HELP_MESSAGE:
         'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
@@ -64,7 +65,13 @@ const languageString = {
   },
   'en-US': {
     translation: {
-      QUESTIONS: questions['QUESTIONS_EN_US'],
+      QUESTIONS: questions_en_gb['QUESTIONS_EN_US'],
+      GAME_NAME: 'Mega Family Trivia' // Be sure to change this for your skill.
+    }
+  },
+  'en-GB': {
+    translation: {
+      QUESTIONS: questions_en_gb['QUESTIONS_EN_GB'],
       GAME_NAME: 'Mega Family Trivia' // Be sure to change this for your skill.
     }
   }
